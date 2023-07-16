@@ -1,0 +1,55 @@
+/**
+ * @name Green-Skull
+ * @version 1.0
+ * @description A translucent/frosted glass Discord theme
+ * @author MrNobody
+ *
+ * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
+ * @invite jzJkA6Z
+ */
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+
+:root {
+	--app-bg: url(https://i.imgur.com/vwlN7Vc.png);
+	--app-blur: 1px;
+	--app-margin: 25px;
+	--app-radius: 8px; /*	-	*/
+	
+	--accent-hue: 133;
+	--accent-saturation: 99%;
+	--accent-lightness: 40%;
+	--accent-opacity: 1;
+	--accent-text-color: rgb(2, 0, 0); /*	-	*/
+
+	--sidebar-color: rgba(58, 92, 2, 0.192);
+	--main-content-color: rgba(0, 0, 0, 0.55); /*	-	*/
+
+	--message-color: rgba(0, 0, 0, 0.2);
+	--message-radius: 8px;
+	--message-padding-top: 8px;
+	--message-padding-side: 8px; /*	-	*/
+	
+	--reply-hue: 226;
+	--reply-saturation: 77.4%;
+	--reply-lightness: 61.8%;
+	--reply-opacity: 1; /*	-	*/
+
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #fff;
+	--textarea-radius: 22px;  /*	-	*/
+
+	--card-color: rgba(0, 0, 0, 0.4);
+	--card-color-hover: rgba(0,0,0,0.5);
+	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
+
+	--interactive-normal: #aaa;
+	--interactive-hover: #ddd;
+	--interactive-active: #fff;
+	--interactive-muted: #777; /*	-	*/
+
+	--background-modifier-hover: rgb(25, 215, 22);
+	--background-modifier-selected: rgb(32, 136, 59);
+}
