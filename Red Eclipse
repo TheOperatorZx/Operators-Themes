@@ -11,7 +11,7 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: url(https://i.imgur.com/D4S0y7U.jpg);
+	--app-bg: url(https://imgur.com/OchZJex);
 	--app-blur: 1px;
 	--app-margin: 25px;
 	--app-radius: 8px; /*	-	*/
