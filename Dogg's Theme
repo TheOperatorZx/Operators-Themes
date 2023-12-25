@@ -23,7 +23,7 @@
 	--accent-opacity: 1;
 	--accent-text-color: rgb(132, 181, 221); /*	-	*/
 
-	--sidebar-color: rgba(20, 112, 139, 0.096);
+	--sidebar-color: rgba(0, 0, 0, 0.55);
 	--main-content-color: rgba(0, 0, 0, 0.55); /*	-	*/
 
 	--message-color: rgba(90, 143, 143, 0.2);
