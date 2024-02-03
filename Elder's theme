@@ -39,7 +39,7 @@
 	--textarea-color: 200,255,255;
 	--textarea-alpha: 0.1;
 	--textarea-alpha-focus: 0.15;
-	--textarea-text-color: #ffffff00;
+	--textarea-text-color: #ffffffd5;
 	--textarea-radius: 22px;  /*	-	*/
 
 	--card-color: rgba(0, 0, 0, 0.425);
