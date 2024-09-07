@@ -1,0 +1,55 @@
+/**
+ * @name Pink-Astronaut
+ * @version 1.0
+ * @description A translucent/frosted glass Discord theme
+ * @author MrNobody
+ *
+ * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
+ * @invite jzJkA6Z
+ */
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+
+:root {
+	--app-bg: url(https://cdn.discordapp.com/attachments/1282090059964612719/1282090807683186708/iu.png?ex=66de179c&is=66dcc61c&hm=b9a400d794af092f89c2ea160fe44af42a2a0108bcd54d31e2dfefbd3a799587&);
+	--app-blur: 1px;
+	--app-margin: 25px;
+	--app-radius: 8px; /*	-	*/
+	
+	--accent-hue: 176;
+	--accent-saturation: 67%;
+	--accent-lightness: 25%;
+	--accent-opacity: 1;
+	--accent-text-color: rgb(219, 219, 219); /*	-	*/
+
+	--sidebar-color: rgba(66, 2, 2, 0.726);
+	--main-content-color: rgba(0, 0, 0, 0.55); /*	-	*/
+
+	--message-color: rgba(172, 58, 58, 0.2);
+	--message-radius: 8px;
+	--message-padding-top: 8px;
+	--message-padding-side: 8px; /*	-	*/
+	
+	--reply-hue: 353;
+	--reply-saturation: 100%;
+	--reply-lightness: 14%;
+	--reply-opacity: 1; /*	-	*/
+
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #fff;
+	--textarea-radius: 22px;  /*	-	*/
+
+	--card-color: rgba(0, 0, 0, 0.4);
+	--card-color-hover: rgba(0, 0, 0, 0.5);
+	--card-color-select: rgba(0, 0, 0, 0.7); /*	-	*/
+
+	--interactive-normal: #aaa;
+	--interactive-hover: #ddd;
+	--interactive-active: #fff;
+	--interactive-muted: #777; /*	-	*/
+
+	--background-modifier-hover: rgba(114, 1, 1, 0.911);
+	--background-modifier-selected: rgba(136, 1, 1, 0.911);
+}
