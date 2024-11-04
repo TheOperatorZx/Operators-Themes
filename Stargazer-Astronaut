@@ -58,7 +58,7 @@
     --interactive-muted: #777;
     /*	-	*/
 
-    --background-modifier-hover: #1b3564;
-    --background-modifier-selected: #11254b;
+    --background-modifier-hover: #51116d;
+    --background-modifier-selected: #420e59;
 
 }
