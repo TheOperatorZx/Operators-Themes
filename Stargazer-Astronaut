@@ -19,14 +19,14 @@
 	
 	--accent-hue: 207;
 	--accent-saturation: 81%;
-	--accent-lightness: 16%;
+	--accent-lightness: 40%;
 	--accent-opacity: 1;
 	--accent-text-color: rgb(190, 187, 187); /*	-	*/
 
 	--sidebar-color: rgba(0, 0, 0, 0.459);
 	--main-content-color: rgba(0, 0, 0, 0.459); /*	-	*/
 
-	--message-color: rgba(0,0,0,0.2);
+	--message-color: rgba(0, 0, 0, 0);
 	--message-radius: 8px;
 	--message-padding-top: 8px;
 	--message-padding-side: 8px; /*	-	*/
