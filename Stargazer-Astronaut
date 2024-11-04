@@ -31,7 +31,7 @@
 
     --message-color: rgba(0, 0, 0, 0);
     --message-radius: 8px;
-    --message-padding-top: 5px;
+    --message-padding-top: 4px;
     --message-padding-side: 8px;
     /*	-	*/
     -- --reply-hue: 219;
