@@ -26,7 +26,7 @@
     /*	-	*/
 
     --sidebar-color: rgba(0, 0, 0, 0.459);
-    --main-content-color: rgba(0, 0, 0, 0.459);
+    --main-content-color: rgba(0, 0, 0, 0);
     /*	-	*/
 
     --message-color: rgba(0, 0, 0, 0);
