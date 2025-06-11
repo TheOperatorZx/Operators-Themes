@@ -12,7 +12,7 @@
 
 :root {
 	--app-bg: url(https://i.imgur.com/79KuclA.jpeg);
-	--app-blur: 1px;
+	--app-blur: 0px;
 	--app-margin: 25px;
 	--app-radius: 8px; /*	-	*/
 	
