@@ -15,6 +15,7 @@
 
     --background-shading-percent: 0%;
     --main-color: #31f902;
+	--hover-color: #31f902;
     --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 	--app-bg: url(https://i.imgur.com/1zSEWrc_d.webp?maxwidth=1520&fidelity=grand);
