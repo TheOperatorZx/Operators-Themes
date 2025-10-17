@@ -10,13 +10,56 @@
 
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+
+
+
+
+.visual-refresh:not(.platform-osx) .leading_c38106::before {
+  content: "TheOperator";
+  position: static;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-default);
+  order: 2;
+  filter: drop-shadow(0 0 5px var(--hsl-main-color))
+}
+
+.visual-refresh:not(.platform-osx) .leading_c38106::after {
+  content: "#5490";
+  position: static;
+  margin-top: -5px;
+  margin-left: 5px;
+  font-family: var(--code-font);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  order: 3
+}
+
+.member__5d473 .nameContainer__703b9:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -8px;
+  background: linear-gradient(to right, var(--main-color) 90%, transparent);
+  border-radius: 4px;
+  opacity: 0;
+  transition: all .15s ease-in-out;
+  z-index: -1
+}
 
 :root {
 
+    --background-image: url(https://i.imgur.com/1zSEWrc_d.webp?maxwidth=1520&fidelity=grand);
     --background-shading-percent: 0%;
     --main-color: #31f902;
-	--hover-color: #31f902;
+    --hover-color: #2ae300;
     --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --user-popout-filter: var(--main-color);
 
 	--app-bg: url(https://i.imgur.com/1zSEWrc_d.webp?maxwidth=1520&fidelity=grand);
 	--app-blur: 0px;
