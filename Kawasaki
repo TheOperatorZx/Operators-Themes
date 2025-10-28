@@ -38,19 +38,16 @@
   order: 3
 }
 
-.member__5d473 .nameContainer__703b9:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: -8px;
-  background: linear-gradient(to right, var(--main-color) 90%, transparent);
-  border-radius: 4px;
-  opacity: 0;
-  transition: all .15s ease-in-out;
-  z-index: -1
+.member__5d473 .nameContainer__703b9[style^="color:"]:before,
+.member__5d473 .nameContainer__703b9[style^="color:"]:after {
+  background: linear-gradient(to right, #31f902 90%, transparent)
 }
+
+.nameplated__91a9d .member__5d473 .nameContainer__703b9[style^="color:"]:before,
+.nameplated__91a9d .member__5d473 .nameContainer__703b9[style^="color:"]:after {
+  background: linear-gradient(to right, #31f902, transparent)
+}
+
 
 :root {
 
@@ -59,7 +56,7 @@
     --main-color: #31f902;
     --hover-color: #2ae300;
     --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --user-popout-filter: var(--main-color);
+    --user-popout-filter: #31f902;
 
 	--app-bg: url(https://i.imgur.com/1zSEWrc_d.webp?maxwidth=1520&fidelity=grand);
 	--app-blur: 0px;
